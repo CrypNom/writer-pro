@@ -2,7 +2,7 @@
 
 An authentic, distortion-free online IELTS Writing practice canvas built to simulate strict examination conditions. Designed with an ultra-clean layout, this application ensures you practice relying entirely on your own skills—without the help of modern auto-correct features.
 
-🚀 **Live Link:** [Insert your live GitHub Pages URL here, e.g., https://crypnom.github.io/writer-pro/]
+🚀 **Live Link:** [https://crypnom.github.io/writer-pro/]
 
 ---
 
