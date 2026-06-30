@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTRL + Q Writer Pro | Professional IELTS Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <style>
+        textarea {
+            spellcheck: false;
+            contenteditable: true;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased">
+
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="font-black text-xl tracking-tight text-indigo-600">CTRL + Q</span>
+                <span class="text-gray-400">|</span>
+                <span class="font-semibold text-gray-700 text-sm tracking-wide uppercase">Writer Pro</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                <a href="#features" class="hover:text-indigo-600 transition">Features</a>
+                <a href="#workspace" class="hover:text-indigo-600 transition">Practice Workspace</a>
+                <a href="#contact" class="hover:text-indigo-600 transition">Developer</a>
+            </nav>
+            <div>
+                <a href="https://discord.gg/YhaVrS4dHM" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition shadow-sm">
+                    Join CTRL + Q
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-white pt-20 pb-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-gray-900 tracking-tight mb-6">
+                Master IELTS Writing <br class="hidden sm:inline">
+                <span class="text-indigo-600">Without Distractions.</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg sm:text-xl text-gray-500 mb-10 leading-relaxed">
+                A professional environment engineered for authentic test conditions. No auto-correct, no red underlines, no crutches. Just you and your thoughts.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#workspace" class="w-full sm:w-auto px-8 py-4 text-base font-semibold text-white bg-gray-900 rounded-xl hover:bg-gray-800 transition shadow-md">
+                    Start Writing Now
+                </a>
+                <a href="#features" class="w-full sm:w-auto px-8 py-4 text-base font-semibold text-gray-600 bg-gray-100 rounded-xl hover:bg-gray-200 transition">
+                    Explore Features
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 border-t border-gray-100 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 tracking-tight">Built for Real Exam Success</h2>
+                <p class="mt-4 text-gray-500">Simulate the real computer-delivered IELTS exam standard.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Zero Error Highlights</h3>
+                    <p class="text-gray-500 leading-relaxed">Spelling errors, grammatical squiggles, and smart fixes are completely blocked. Force yourself to self-correct just like the actual test.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 002-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Live Telemetry</h3>
+                    <p class="text-gray-500 leading-relaxed">Keep absolute track of your progression with precise real-time counters tracking your strict letter limits, word counts, and page lengths.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Direct PDF Export</h3>
+                    <p class="text-gray-500 leading-relaxed">Instantly export your draft as a clean, professionally formatted vector PDF file for evaluation, offline reading, or tracking your improvement over time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workspace" class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            
+            <div class="mb-6 flex flex-wrap gap-4 items-center justify-between border-b border-gray-100 pb-4">
+                <div>
+                    <h2 class="text-2xl font-bold tracking-tight text-gray-900">Practice Workspace</h2>
+                    <p class="text-xs text-gray-500 mt-0.5">Your content auto-saves locally as you type.</p>
+                </div>
+                
+                <div class="flex flex-wrap items-center gap-3">
+                    <div class="flex bg-gray-100 p-1 rounded-xl text-xs font-semibold">
+                        <button id="task1-btn" class="px-3 py-1.5 rounded-lg bg-white shadow-sm text-gray-900 transition">Task 1 (150w)</button>
+                        <button id="task2-btn" class="px-3 py-1.5 rounded-lg text-gray-500 hover:text-gray-900 transition">Task 2 (250w)</button>
+                    </div>
+                    
+                    <div class="flex items-center bg-gray-900 text-white rounded-xl px-3 py-1.5 font-mono text-sm shadow-sm gap-2">
+                        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span id="timer-display">20:00</span>
+                        <button id="timer-toggle-btn" class="text-xs bg-indigo-600 hover:bg-indigo-500 transition px-2 py-0.5 rounded font-sans font-bold uppercase ml-1">Start</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-6 bg-amber-50/60 border border-amber-200/70 rounded-2xl p-4 sm:p-5">
+                <label for="prompt-area" class="block text-xs font-bold text-amber-800 uppercase tracking-wider mb-2 flex items-center gap-1">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                    Exam Prompt / Prompt Question Reference
+                </label>
+                <textarea 
+                    id="prompt-area"
+                    class="w-full bg-transparent border-0 outline-none text-sm text-amber-900/90 placeholder-amber-700/40 resize-y h-16 leading-relaxed"
+                    placeholder="Paste or write your IELTS task instructions/question context here to keep it in constant view..."
+                ></textarea>
+            </div>
+            
+            <div class="bg-white rounded-2xl border border-gray-300 shadow-sm overflow-hidden focus-within:border-indigo-500 focus-within:ring-2 focus-within:ring-indigo-100 transition-all">
+                <textarea 
+                    id="writing-area" 
+                    class="w-full h-96 p-6 sm:p-8 outline-none resize-none text-base sm:text-lg leading-relaxed text-gray-800 placeholder-gray-400"
+                    placeholder="Type your IELTS Task 1 or Task 2 essay here... (Spellcheck, Grammar, and Auto-Correct indicators are disabled completely on this surface)"
+                    spellcheck="false"
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off"
+                ></textarea>
+                
+                <div class="bg-gray-50 border-t border-gray-200 px-6 py-4 flex flex-wrap gap-4 text-sm text-gray-500 font-medium justify-between items-center">
+                    <div class="flex flex-wrap gap-6 items-center">
+                        <div>Words: <span id="word-count" class="text-gray-900 font-bold">0</span></div>
+                        <div>Letters: <span id="letter-count" class="text-gray-900 font-bold">0</span></div>
+                        <div>Est. Pages: <span id="page-count" class="text-gray-900 font-bold">0</span></div>
+                        
+                        <div id="target-badge" class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold transition-all bg-red-50 text-red-700 border border-red-100">
+                            <span class="w-1.5 h-1.5 rounded-full bg-red-500" id="target-dot"></span>
+                            <span id="target-text">0 / 150 Words</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-2">
+                        <button 
+                            id="clear-draft-btn" 
+                            class="inline-flex items-center px-3 py-2 text-xs font-semibold text-gray-500 hover:text-red-600 transition uppercase tracking-wider rounded-md border border-transparent hover:border-red-200 hover:bg-red-50"
+                        >
+                            Reset Workspace
+                        </button>
+                        <button 
+                            id="download-pdf-btn" 
+                            class="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold text-white bg-indigo-600 rounded-md hover:bg-indigo-700 transition shadow-sm uppercase tracking-wider"
+                        >
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                            Download PDF File
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            <h2 class="text-2xl font-bold tracking-tight mb-4">Contact the Developer</h2>
+            <p class="text-gray-400 max-w-md mx-auto mb-8 text-sm sm:text-base">
+                Have feature requests, issues, or business inquiries regarding CTRL + Q ecosystem? Drop a line directly or join the community.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 text-sm">
+                <a href="mailto:developer.ctrlq@hotmail.com" class="text-indigo-400 hover:text-indigo-300 font-medium transition">
+                    developer.ctrlq@hotmail.com
+                </a>
+                <span class="hidden sm:inline text-gray-700">|</span>
+                <a href="https://discord.gg/YhaVrS4dHM" target="_blank" rel="noopener noreferrer" class="bg-indigo-600 hover:bg-indigo-700 px-5 py-2.5 rounded-lg font-semibold tracking-wide shadow transition flex items-center gap-2">
+                    Connect on Discord
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-950 py-6 border-t border-gray-800 text-center text-xs text-gray-500 font-medium">
+        <div class="max-w-7xl mx-auto px-4">
+            &copy; 2026 CTRL + Q. All rights reserved. Built with precision for professional testing metrics.
+        </div>
+    </footer>
+
+    <script>
+        const writingArea = document.getElementById('writing-area');
+        const promptArea = document.getElementById('prompt-area');
+        const wordCountDisplay = document.getElementById('word-count');
+        const letterCountDisplay = document.getElementById('letter-count');
+        const pageCountDisplay = document.getElementById('page-count');
+        const downloadPdfBtn = document.getElementById('download-pdf-btn');
+        const clearDraftBtn = document.getElementById('clear-draft-btn');
+        
+        // Extended Variables
+        const task1Btn = document.getElementById('task1-btn');
+        const task2Btn = document.getElementById('task2-btn');
+        const timerDisplay = document.getElementById('timer-display');
+        const timerToggleBtn = document.getElementById('timer-toggle-btn');
+        const targetBadge = document.getElementById('target-badge');
+        const targetDot = document.getElementById('target-dot');
+        const targetText = document.getElementById('target-text');
+
+        let currentTaskMode = 1; // 1 = Task 1, 2 = Task 2
+        let timerInterval = null;
+        let timeRemaining = 20 * 60; // default 20 minutes in seconds
+        let isTimerRunning = false;
+
+        // TARGET RULES METRICS CONFIGURATION
+        function updateMetrics(words, letters, pages) {
+            wordCountDisplay.textContent = words;
+            letterCountDisplay.textContent = letters;
+            pageCountDisplay.textContent = pages;
+
+            const targetGoal = currentTaskMode === 1 ? 150 : 250;
+            targetText.textContent = `${words} / ${targetGoal} Words`;
+
+            if (words >= targetGoal) {
+                targetBadge.className = "inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold transition-all bg-green-50 text-green-700 border border-green-100";
+                targetDot.className = "w-1.5 h-1.5 rounded-full bg-green-500";
+            } else {
+                targetBadge.className = "inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold transition-all bg-red-50 text-red-700 border border-red-100";
+                targetDot.className = "w-1.5 h-1.5 rounded-full bg-red-500";
+            }
+        }
+
+        // REAL TIME TELEMETRY COUNTER WITH STORAGE
+        function calculationEngine() {
+            const text = writingArea.value;
+            const letters = text.length;
+            const words = text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
+            const pages = text.trim() === "" ? 0 : Math.ceil(words / 250);
+
+            updateMetrics(words, letters, pages);
+
+            // Auto save state safely
+            localStorage.setItem('ctrlq_draft_content', text);
+        }
+
+        writingArea.addEventListener('input', calculationEngine);
+        promptArea.addEventListener('input', () => {
+            localStorage.setItem('ctrlq_prompt_content', promptArea.value);
+        });
+
+        // DISCRETE APP COUNTS RESTORATION LOGIC
+        window.addEventListener('DOMContentLoaded', () => {
+            const cachedDraft = localStorage.getItem('ctrlq_draft_content');
+            const cachedPrompt = localStorage.getItem('ctrlq_prompt_content');
+            if (cachedDraft) writingArea.value = cachedDraft;
+            if (cachedPrompt) promptArea.value = cachedPrompt;
+            calculationEngine();
+        });
+
+        // WORKSPACE CLEAR RESET PIPELINE
+        clearDraftBtn.addEventListener('click', () => {
+            if (confirm("Are you sure you want to reset your practice workspace? This will clear your current draft permanently.")) {
+                writingArea.value = "";
+                promptArea.value = "";
+                localStorage.removeItem('ctrlq_draft_content');
+                localStorage.removeItem('ctrlq_prompt_content');
+                calculationEngine();
+                resetTimerEngine();
+            }
+        });
+
+        // ADVANCED TIMER ARCHITECTURE
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            
+            // Visual threat warning system when under 3 minutes
+            if (timeRemaining <= 180) {
+                timerDisplay.parentElement.classList.remove('bg-gray-900');
+                timerDisplay.parentElement.classList.add('bg-red-600', 'animate-pulse');
+            } else {
+                timerDisplay.parentElement.classList.remove('bg-red-600', 'animate-pulse');
+                timerDisplay.parentElement.classList.add('bg-gray-900');
+            }
+        }
+
+        function resetTimerEngine() {
+            clearInterval(timerInterval);
+            isTimerRunning = false;
+            timerToggleBtn.textContent = "Start";
+            timeRemaining = currentTaskMode === 1 ? 20 * 60 : 40 * 60;
+            updateTimerDisplay();
+        }
+
+        timerToggleBtn.addEventListener('click', () => {
+            if (isTimerRunning) {
+                clearInterval(timerInterval);
+                isTimerRunning = false;
+                timerToggleBtn.textContent = "Resume";
+            } else {
+                isTimerRunning = true;
+                timerToggleBtn.textContent = "Pause";
+                timerInterval = setInterval(() => {
+                    if (timeRemaining > 0) {
+                        timeRemaining--;
+                        updateTimerDisplay();
+                    } else {
+                        clearInterval(timerInterval);
+                        isTimerRunning = false;
+                        timerToggleBtn.textContent = "Done";
+                        alert("Time's up! Complete your final review and export your vector PDF file container.");
+                    }
+                }, 1000);
+            }
+        });
+
+        // TASK MODE ALTERATION CONFIGURATOR
+        task1Btn.addEventListener('click', () => {
+            if (currentTaskMode === 1) return;
+            currentTaskMode = 1;
+            task1Btn.className = "px-3 py-1.5 rounded-lg bg-white shadow-sm text-gray-900 transition";
+            task2Btn.className = "px-3 py-1.5 rounded-lg text-gray-500 hover:text-gray-900 transition";
+            calculationEngine();
+            resetTimerEngine();
+        });
+
+        task2Btn.addEventListener('click', () => {
+            if (currentTaskMode === 2) return;
+            currentTaskMode = 2;
+            task2Btn.className = "px-3 py-1.5 rounded-lg bg-white shadow-sm text-gray-900 transition";
+            task1Btn.className = "px-3 py-1.5 rounded-lg text-gray-500 hover:text-gray-900 transition";
+            calculationEngine();
+            resetTimerEngine();
+        });
+
+        // IMMUTABLE TEXT VECTOR GENERATOR FOR DIRECT PDF FILE SAVING
+        downloadPdfBtn.addEventListener('click', () => {
+            const textContent = writingArea.value.trim();
+
+            if (!textContent) {
+                alert("Please write something before exporting to PDF.");
+                return;
+            }
+
+            const originalBtnText = downloadPdfBtn.innerHTML;
+            downloadPdfBtn.disabled = true;
+            downloadPdfBtn.innerHTML = `Saving PDF...`;
+
+            try {
+                const { jsPDF } = window.jspdf;
+                const doc = new jsPDF({
+                    orientation: 'portrait',
+                    unit: 'mm',
+                    format: 'a4'
+                });
+
+                const dateStr = new Date().toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+                
+                // 1. Draw Branding Header Top
+                doc.setFont("helvetica", "bold");
+                doc.setFontSize(22);
+                doc.setTextColor(79, 70, 229); 
+                doc.text("CTRL + Q Writer Pro", 15, 20);
+
+                // 2. Draw Subtitle Details
+                doc.setFont("helvetica", "normal");
+                doc.setFontSize(10);
+                doc.setTextColor(102, 102, 102); 
+                doc.text(`IELTS Writing Practice Draft (Task ${currentTaskMode}) — Extracted on ${dateStr}`, 15, 26);
+
+                // 3. Draw Design Separator rule line
+                doc.setDrawColor(79, 70, 229);
+                doc.setLineWidth(0.5);
+                doc.line(15, 30, 195, 30);
+
+                // 4. Wrap & Print Content blocks safely honoring natural row structures
+                doc.setFont("times", "normal");
+                doc.setFontSize(12);
+                doc.setTextColor(17, 17, 17); 
+
+                const paragraphs = textContent.split('\n');
+                let cursorY = 40;
+                const pageHeightLimit = 275;
+
+                paragraphs.forEach((para) => {
+                    if (para.trim() === "") {
+                        cursorY += 6;
+                        return;
+                    }
+
+                    const splitLines = doc.splitTextToSize(para, 180);
+                    
+                    splitLines.forEach((line) => {
+                        if (cursorY > pageHeightLimit) {
+                            doc.addPage();
+                            cursorY = 20; 
+                        }
+                        doc.text(line, 15, cursorY);
+                        cursorY += 6.5; 
+                    });
+                    
+                    cursorY += 4; 
+                });
+
+                // 5. Build Layout Footer Block
+                if (cursorY > (pageHeightLimit - 15)) {
+                    doc.addPage();
+                    cursorY = 20;
+                }
+                doc.setDrawColor(229, 231, 235);
+                doc.setLineWidth(0.2);
+                doc.line(15, cursorY + 5, 195, cursorY + 5);
+
+                doc.setFont("helvetica", "normal");
+                doc.setFontSize(9);
+                doc.setTextColor(136, 136, 136);
+                doc.text(`Metrics: ${wordCountDisplay.textContent} Words | ${letterCountDisplay.textContent} Characters`, 15, cursorY + 11);
+                doc.text(`Simulated Test Environment (Task ${currentTaskMode})`, 140, cursorY + 11);
+
+                // Execute download
+                const fileName = `IELTS_Task${currentTaskMode}_Draft_${new Date().toISOString().slice(0,10)}.pdf`;
+                doc.save(fileName);
+
+            } catch (error) {
+                console.error("PDF generation failure context:", error);
+                alert("Could not complete direct PDF creation processing step.");
+            } finally {
+                downloadPdfBtn.disabled = false;
+                downloadPdfBtn.innerHTML = originalBtnText;
+            }
+        });
+    </script>
+</body>
+</html>
